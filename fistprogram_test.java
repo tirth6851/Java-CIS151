@@ -1,18 +1,11 @@
-import java.util.Random;
-import java.util.Scanner; 
 public class fistprogram_test {
-  public static void main(String[] args) {
-    /* 
-    Scanner scan = new Scanner(System.in);
-    Random random = new Random();
-    int num;
-    num = random.nextInt(1, 6);
-    System.out.println(num);
-    */
-
-
-    
-
-
+  public static void main(String[] args){
+    int age = 19;
+    String gender = "Male";
+    Double gpa = 3.68;
+    char fullstop = '.';
+    char comma = ',';
+    char apha_A = 'A';
+    System.out.println(age + " " + gender + "and " + comma + "thier gpa is = " + gpa + " OR " + apha_A + fullstop);
   }
 }

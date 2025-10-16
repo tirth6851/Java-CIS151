@@ -1,6 +1,6 @@
 package code_v_2_Date_10_16;
 
-public class practice {
+public class pravtice {
   public static void main(String[] args){
     int age = 19;
     String gender = "Male";

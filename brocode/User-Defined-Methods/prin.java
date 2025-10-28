@@ -7,6 +7,24 @@ public  class prin {
     System.out.println(hello());
     System.out.println(hello());
     System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
+    System.out.println(hello());
   }
   static String hello() {
     String h = "hello";

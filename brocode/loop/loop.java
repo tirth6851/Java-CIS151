@@ -6,7 +6,7 @@ public class loop {
     Scanner sc = new Scanner(System.in);
 
 
-    int target = 50;
+    int target = 500;
     while (target > 0) {
       System.out.println(target);
       target -= 5;

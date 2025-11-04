@@ -19,5 +19,24 @@ public class loop {
         System.out.println(i);
       }
     }
+    
+    else if (whileOrFor.equals("neestForLoop")) {
+      System.out.println("What type of neestLoop ?");
+      String whatType = sc.nextLine();
+      System.out.println(whatType); 
+      if (whatType.equals("square")) {
+        int row = System.out.print("How many rows ? ");
+        int col = System.out.print("How many colons ? ");;
+        for (int i = 0; i < 5; i++) {
+          for (int j = 0; j < 5; j++) {
+            System.out.print("*");
+          }
+          System.out.println();
+        }
+      }
+    }
+    else {
+      System.out.println("Invalid Input");
+    }
   }
 }

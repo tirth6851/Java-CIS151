@@ -3,9 +3,10 @@ public class loop {
   public static void  main(String[] args) {
 
     //defining scanner
-    Scanner sc = new Scanner(System.in);
-    System.out.println("HI");
-    String whileOrFor= sc.nextLine();
+    Scanner sc = new Scanner(System.in); 
+    System.out.println("HI"); // testing 
+    String whileOrFor= sc.nextLine(); //geting input to know which one to run (while or for loop)
+
     if (whileOrFor.equals("while") || whileOrFor.equals("While")) {
       int target = 500;
       while (target > 0) {
@@ -25,8 +26,10 @@ public class loop {
       String whatType = sc.nextLine();
       System.out.println(whatType); 
       if (whatType.equals("square")) {
-        int row = System.out.print("How many rows ? ");
-        int col = System.out.print("How many colons ? ");;
+        System.out.print("How many rows ? ");
+        int row = sc.nextInt();
+        System.out.print("How many colons ? ");
+        int col = sc.nextInt();
         for (int i = 0; i < 5; i++) {
           for (int j = 0; j < 5; j++) {
             System.out.print("*");

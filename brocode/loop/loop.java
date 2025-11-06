@@ -4,7 +4,7 @@ public class loop {
 
     //defining scanner
     Scanner sc = new Scanner(System.in); 
-    System.out.println("HI"); // testing 
+    System.out.println("HI"); // testing line
     String whileOrFor= sc.nextLine(); //geting input to know which one to run (while or for loop)
 
     if (whileOrFor.equals("while") || whileOrFor.equals("While")) {

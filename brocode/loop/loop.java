@@ -7,7 +7,8 @@ public class loop {
     System.out.println("HI"); // testing line
     String whileOrFor= sc.nextLine(); //geting input to know which one to run (while or for loop)
 
-    if (whileOrFor.equals("while") || whileOrFor.equals("While")) {
+    //while loop
+    if (whileOrFor.equals("while") || whileOrFor.equals("While")) { //just to see which loop to run
       int target = 500;
       while (target > 0) {
         System.out.println(target);

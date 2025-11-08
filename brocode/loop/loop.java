@@ -23,16 +23,16 @@ public class loop {
     }
     
     else if (whileOrFor.equals("neestForLoop")) {
-      System.out.println("What type of neestLoop ?");
+      System.out.print("What type of neestLoop ?");
       String whatType = sc.nextLine();
-      System.out.println(whatType); 
+      //System.out.println(whatType); // just testing input.
       if (whatType.equals("square")) {
         System.out.print("How many rows ? ");
         int row = sc.nextInt();
         System.out.print("How many colons ? ");
         int col = sc.nextInt();
-        for (int i = 0; i < 5; i++) {
-          for (int j = 0; j < 5; j++) {
+        for (int i = 0; i < row; i++) {
+          for (int j = 0; j < col; j++) {
             System.out.print("*");
           }
           System.out.println();

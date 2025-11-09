@@ -17,7 +17,8 @@ public class loop {
     }
 
     else if (whileOrFor.equals("for") || whileOrFor.equals("For")) {
-      for (int i = 500; i > 0; i-=5) {
+      int howManyTimes = sc.nextInt();
+      for (int i = 0; i < howManyTimes; i++) {
         System.out.println(i);
       }
     }
@@ -26,6 +27,8 @@ public class loop {
       System.out.print("What type of neestLoop ?");
       String whatType = sc.nextLine();
       //System.out.println(whatType); // just testing input.
+
+      
       if (whatType.equals("square")) {
         System.out.print("How many rows ? ");
         int row = sc.nextInt();

@@ -1,9 +1,13 @@
-import java.util.scanner;
+import java.util.Scanner;
 public class whileLoop {
   public static void main(String[] args) {
-    Scanner cs = new Scanner(System.in);
-    int num = cs.nextLine();
+    Scanner sc = new Scanner(System.in);
+    int num = sc.nextInt();
     System.out.println(num);
+    while (num < 500) {
+      System.out.println(num);
+      num -= 5;
+    }
 
   } 
 }

@@ -19,8 +19,8 @@ Ask the user for a positive integer N, then:
 
 ## Example Output
 
-Enter N: 12  
-Factors: 1 2 3 4 6 12  
+Enter N: 122  
+Factors: 1  3 4 6 12  
 Total Factors: 6  
 Not Prime
 

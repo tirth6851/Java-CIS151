@@ -2,28 +2,29 @@ public class Array4 {
 
     public static void main(String[] args) {
 
-        // TODO 1: Create an int array with these values:
-        // 12, 45, 7, 89, 23, 18, 60
-        int [] array = {12, 45, 7, 89, 23, 18, 60};
+        int[] nums = {12, 45, 7, 89, 23, 18, 60};
 
-        // TODO 2: Create max and min variables
-        // Set both to the first element in the array
-        
+        int max = nums[0];
+        int min = nums[0];
+        int evenCount = 0;
 
-        // TODO 3: Create an int variable evenCount and set it to 0
-        
+        for (int i = 0; i < nums.length; i++) {
 
-        // TODO 4: Loop through the array (start from index 0 or 1, your choice)
-        // - Update max if current value is greater
-        // - Update min if current value is smaller
-        // - If the current value is even, increase evenCount
-        
+            if (nums[i] > max) {
+                max = nums[i];
+            }
 
-        // TODO 5: Print results exactly like this:
-        // Max: 89
-        // Min: 7
-        // Evens: 3
-        
+            if (nums[i] < min) {
+                min = nums[i];
+            }
 
+            if (nums[i] % 2 == 0) {
+                evenCount++;
+            }
+        }
+
+        System.out.println("Max: " + max);
+        System.out.println("Min: " + min);
+        System.out.println("Evens: " + evenCount);
     }
 }

@@ -4,7 +4,7 @@ public class Array4 {
 
         // TODO 1: Create an int array with these values:
         // 12, 45, 7, 89, 23, 18, 60
-        
+        int [] array = {12, 45, 7, 89, 23, 18, 60};
 
         // TODO 2: Create max and min variables
         // Set both to the first element in the array

@@ -7,7 +7,9 @@ System.out.println(cars[0]);
     //Structure:
   //type[] arryname = new type[size];
   //int[] marks = new int[3];
+
     //or
+  
     int marks[] = new int[3];
     marks[0] = 97;
     marks[1] = 98;
